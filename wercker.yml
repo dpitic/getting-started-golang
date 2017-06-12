@@ -1,4 +1,6 @@
+# The default golang Docker image from Docker Hub will be used
 box: golang
+# Development pipeline definition
 dev:
   steps:
     - internal/watch:
